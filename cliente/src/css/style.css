@@ -1,0 +1,728 @@
+/* Google Font Link */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 1;
+  box-sizing: border-box;
+}
+
+.nav-item {
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.diet321{
+  border-radius: 1%;
+}
+.bg-img {
+  background: url(https://hips.hearstapps.com/hmg-prod/images/dieta-fodmap-pros-contras-elle-1660415938.jpg);
+  padding: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1465px;
+  height: 698px;
+}
+
+.bg-img5{
+  background-color: #ebe3f5;
+}
+
+.bg-img::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  margin-top: 55px;
+  height: 590px;
+  width: 1310px;
+}
+
+.content {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 999;
+  margin-top: -20px;
+  width: 990px;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgb(252, 251, 251);
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+
+.content5{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 999;
+  margin-top: -20px;
+  width: 530px;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgba(240, 238, 238, 0.596);
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card05{
+  box-shadow: 1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+
+.content1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 999;
+  margin-top: -20px;
+  height: 443px;
+  width: 700px;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgb(240, 238, 238);
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+.bac{
+  background-color: #cbaaf7;
+  height: 60px;
+  padding-top: 19px;
+  padding-bottom: 12px;
+  font-family: "Arial", sans-serif;
+}
+.nav{
+  background-color: #ebe3f5;
+  
+}
+.img321{
+  max-width: 300px;
+}
+
+.field {
+  position: relative;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.field span {
+  color: #222;
+  width: 40px;
+  line-height: 45px;
+  padding: 0 10px;
+}
+
+.field input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.space {
+  margin-top: 16px;
+}
+
+.pass {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.pass a {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+.pass:hover a {
+  text-decoration: underline;
+}
+
+button[type="submit"] {
+  background: linear-gradient(to right, #7136e0 0%, #6666ff 100%);
+  border: 1px solid linear-gradient(to right, #0000ff 0%, #6666ff 100%);
+  ;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(to left, #48484b 0%, #6666ff 100%);
+}
+
+.gradient1 {
+  background: rgb(58, 67, 180);
+  background: linear-gradient(90deg, rgba(58, 67, 180, 0.70640756302521) 0%, rgba(94, 253, 29, 0.5159313725490196) 50%, rgba(69, 252, 231, 0.32825630252100846) 100%);
+}
+
+.login {
+  color: #fff;
+  margin: 20px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.link {
+  display: flex;
+  cursor: pointer;
+  color: #fff;
+  margin: 0 0 20px 0;
+}
+
+.facebook,
+.instagram {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.facebook {
+  margin-left: 0px;
+  background: #4267B2;
+  border: 1px solid #3e61a8;
+}
+
+.instagram {
+  background: linear-gradient(to right, #9900cc 0%, #ff3399 100%);
+  border: 1px solid linear-gradient(to right, #9900cc 0%, #ff3399 100%);
+}
+
+.facebook:hover {
+  background: #3e61a8;
+}
+
+.instagram:hover {
+  background: linear-gradient(to left, #9900cc 0%, #ff3399 100%);
+}
+
+.link i {
+  font-size: 17px;
+}
+
+.link span {
+  font-size: 15px;
+  margin-left: 8px;
+
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.signup {
+  color: #f2eded;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.signup a {
+  color: #37ff00;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.container2 {
+  background-image: url("https://media.es.wired.com/photos/641dd31366d2eb810b4083ff/16:9/w_2560%2Cc_limit/Dieta%25201371318211.jpg");
+  padding-top: 189px; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.container3{
+background: rgb(14, 16, 50);
+background: linear-gradient(90deg, rgba(70, 78, 192, 0.706) 0%, rgba(125, 211, 91, 0.516) 50%, rgba(69,252,231,0.32825630252100846) 100%);
+}
+
+.icono-user {
+  font-size: large;
+}
+
+.container {
+  position: relative;
+  max-width: 850px;
+  width: 100%;
+  background: #fff;
+  padding: 40px 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  perspective: 2700px;
+}
+
+.container .cover {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 50%;
+  z-index: 98;
+  transition: all 1s ease;
+  transform-origin: left;
+  transform-style: preserve-3d;
+}
+
+.container #flip:checked~.cover {
+  transform: rotateY(-180deg);
+}
+
+.container .cover .front,
+.container .cover .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.cover .back {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.container .cover::before,
+.container .cover::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #7d2ae8;
+  opacity: 0.5;
+  z-index: 12;
+}
+
+.container .cover::after {
+  opacity: 0.3;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.container .cover img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 10;
+}
+
+.container .cover .text {
+  position: absolute;
+  z-index: 130;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover .text .text-1,
+.cover .text .text-2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+
+.cover .text .text-2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container .forms {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+
+.container .form-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-content .login-form,
+.form-content .signup-form {
+  width: calc(100% / 2 - 25px);
+}
+
+.forms .form-content .title {
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+}
+
+.forms .form-content .title:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 25px;
+  background: #7d2ae8;
+}
+
+.forms .signup-form .title:before {
+  width: 20px;
+}
+
+.forms .form-content .input-boxes {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.forms .form-content .input-box {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+
+.form-content .input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.form-content .input-box input:focus,
+.form-content .input-box input:valid {
+  border-color: #7d2ae8;
+}
+
+.form-content .input-box i {
+  position: absolute;
+  color: #7d2ae8;
+  font-size: 17px;
+}
+
+.forms .form-content .text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.forms .form-content .text a {
+  text-decoration: none;
+}
+
+.forms .form-content .text a:hover {
+  text-decoration: underline;
+}
+
+.forms .form-content .button {
+  color: #fff;
+  margin-top: 40px;
+
+}
+
+.forms .form-content .button input {
+  color: #fff;
+  background: #7d2ae8;
+  border-radius: 6px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.4s ease;
+
+}
+
+.forms .form-content .button input:hover {
+  background: #5b13b9;
+}
+
+.forms .form-content label {
+  color: #5b13b9;
+  cursor: pointer;
+}
+
+.forms .form-content label:hover {
+  text-decoration: underline;
+}
+
+.forms .form-content .login-text,
+.forms .form-content .sign-up-text {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.container #flip {
+  display: none;
+}
+
+@media (max-width: 730px) {
+  .container .cover {
+    display: none;
+  }
+
+  .form-content .login-form,
+  .form-content .signup-form {
+    width: 100%;
+  }
+
+  .form-content .signup-form {
+    display: none;
+  }
+
+  .container #flip:checked~.forms .signup-form {
+    display: block;
+  }
+
+  .container #flip:checked~.forms .login-form {
+    display: none;
+  }
+}
+
+.titulo1 {
+  text-align: center;
+  background-image: url("https://architectural.hunterdouglas.cl/wp-content/uploads/2021/12/proyectos_imagenes_imagen_6662.jpg");
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  width: 1533px;
+  height: 1393px;
+}
+
+.imgusers {
+  height: 190px;
+}
+
+.diabetesi {
+  width: 18rem;
+  background-size: cover;
+  display: inline-block;
+  padding-left: 12px;
+  opacity: 1;
+  bottom: 120px;
+}
+
+.cardiologia {
+  width: 18rem;
+  background-size: cover;
+  display: inline-block;
+  padding: 14px;
+}
+
+.Kinesiterapia_y_Rehabilitación {
+  width: 18rem;
+  background-size: cover;
+  display: inline-block;
+  padding-right: 23px;
+}
+
+.Medicina_del_deporte {
+  width: 18rem;
+  background-size: cover;
+  display: inline-block;
+  padding-right: 42px;
+}
+
+.pediyado {
+  width: 18rem;
+  background-size: cover;
+  display: inline-block;
+  padding-right: 21px;
+}
+
+.neuA {
+  width: 18rem;
+  background-size: cover;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.gastro {
+  width: 18rem;
+  background-size: cover;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.mediu {
+  width: 18rem;
+  background-size: cover;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.cirugiacye {
+  width: 18rem;
+  background-size: cover;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.medicinaiu {
+  width: 18rem;
+  background-size: cover;
+  display: inline-block;
+  padding-right: 26px;
+}
+
+.profesionales {
+  text-align: center;
+}
+
+.card1 {
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  width: 18rem;
+  height: 100%;
+  display: flex;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: default;
+  transition: all 400ms ease;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  width: 78%;
+  max-width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;  
+}
+
+
+.card2 {
+  flex: 0 0 calc(33.33% - 20px);
+  /* Establece el ancho de cada tarjeta según tus necesidades */
+  margin: 10px;
+}
+
+.card1 {
+  justify-content: center;
+}
+
+.Admin1 {
+  display: flex;
+  align-self: auto;
+}
+
+.cardDieta {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card1 {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 4px solid #6e3131;
+  border-radius: 5px;
+  background-color: #ebe5e5;
+}
+
+h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.table-info {
+  background-color: lightblue;
+  color: white;
+}
+
+.table-hover tr:hover {
+  background-color: lightgray;
+}
+
+.btn-outline-warning {
+  border: 1px solid yellow;
+  color: yellow;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}
+
+.card-body {
+  font-size: 15px;
+}
+
+.btn {
+  margin: 10px;
+}
+
+
